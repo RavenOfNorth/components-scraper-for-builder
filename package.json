@@ -1,0 +1,30 @@
+{
+  "name": "components-scraper-for-pcbuilder",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "PC component's scraper for PCBuilder",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scraper",
+    "onliner",
+    "PC",
+    "Components"
+  ],
+  "author": "Dzmitry Haurylenka (RavenOfNorth)",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "eslint": "^9.21.0",
+    "globals": "^16.0.0",
+    "jest": "^29.7.0",
+    "prettier": "3.5.3"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "puppeteer": "^24.3.0"
+  }
+}
